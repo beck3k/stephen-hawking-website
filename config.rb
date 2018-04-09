@@ -44,3 +44,6 @@ page '/*.txt', layout: false
 #   activate :minify_css
 #   activate :minify_javascript
 # end
+
+#Change name of build folder for compatibility with github pages
+set :build_dir, 'docs'
