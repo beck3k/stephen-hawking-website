@@ -1,0 +1,233 @@
+{
+  "name" : "competition",
+  "presets" : {
+    "environment" : {
+      "name" : "Environment",
+      "type" : "image-carousel",
+      "images": [
+        "Environment/IMG_1916.JPG",
+        "Environment/IMG_1917.JPG",
+        "Environment/IMG_1863.JPG",
+        "Environment/18698134_10155400357821979_1645862792087319472_n.jpg",
+        "Environment/IMG_1943.JPG",
+        "Environment/IMG_1942.JPG",
+        "Environment/IMG_1951.JPG",
+        "Environment/IMG_1944.JPG",
+        "Environment/IMG_1950.JPG",
+        "Environment/IMG_1952.JPG",
+        "Environment/IMG_1920.JPG",
+        "Environment/IMG_1921.JPG",
+        "Environment/IMG_1894.JPG",
+        "Environment/17862807_10155259978106979_1369706241048649627_n.jpg",
+        "Environment/IMG_1891.JPG",
+        "Environment/IMG_1927.JPG",
+        "Environment/IMG_1892.JPG",
+        "Environment/IMG_1919.JPG",
+        "Environment/IMG_1918.JPG",
+        "Environment/IMG_1893.JPG"
+      ]
+    },
+    "general_demos" : {
+      "name" : "General Demos",
+      "type" : "image-carousel",
+      "images" : [
+        "General Demos/IMG_1898.JPG",
+        "General Demos/IMG_1899.JPG",
+        "General Demos/IMG_1949.JPG",
+        "General Demos/IMG_1948.JPG",
+        "General Demos/21765237_10155817843811979_2173800634381209798_n.jpg",
+        "General Demos/IMG_1945.JPG",
+        "General Demos/22448666_10155883543286979_5560630433815955361_n.jpg",
+        "General Demos/IMG_1946.JPG",
+        "General Demos/IMG_1947.JPG",
+        "General Demos/IMG_1897.JPG",
+        "General Demos/IMG_1882.JPG",
+        "General Demos/23435187_10155970104091979_4516851549731603504_n.jpg",
+        "General Demos/IMG_1884.JPG",
+        "General Demos/IMG_1886.JPG",
+        "General Demos/IMG_1878.JPG"
+      ]
+    },
+    "infographics" : {
+      "name" : "Infographics" ,
+      "type" : "fullscreen-image-slider",
+      "images" : [
+        "Infographics/Robotics Brochure (1).jpg",
+        "Infographics/Girl Scout Flyers.jpg",
+        "Infographics/Pit Infographics (1).png",
+        "Infographics/Robotics Brochure.jpg",
+        "Infographics/ForestFlyer (1).jpg",
+        "Infographics/Pit Infographics (2).png"
+      ]
+    },
+    "march_for_science" : {
+      "name" : "March for Science",
+      "type" : "image-carousel",
+      "images" : [
+        "March for Science/IMG_1929.JPG",
+        "March for Science/IMG_1928.JPG",
+        "March for Science/18033993_10155289202261979_5947951209035347298_n.jpg",
+        "March for Science/IMG_1934.JPG",
+        "March for Science/IMG_1935.JPG",
+        "March for Science/IMG_1937.JPG",
+        "March for Science/IMG_1936.JPG",
+        "March for Science/IMG_1933.JPG",
+        "March for Science/IMG_1931.JPG",
+        "March for Science/IMG_1930.JPG"
+      ]
+    },
+    "meetings" : {
+      "name" : "Meetings",
+      "type" : "image-carousel",
+      "images" : [
+        "Meetings/Robotics3.jpg",
+        "Meetings/27067529_10156209641016979_803853185474041799_n.jpg",
+        "Meetings/Robotics2.jpg",
+        "Meetings/IMG_1874.JPG",
+        "Meetings/Robotics1.jpg",
+        "Meetings/IMG_1873.JPG",
+        "Meetings/27654545_10156235523346979_2504559363442940948_n.jpg",
+        "Meetings/IMG_1866.JPG",
+        "Meetings/27866963_10156263195596979_134881647318146246_n.jpg",
+        "Meetings/IMG_1870.JPG",
+        "Meetings/IMG_1864.JPG",
+        "Meetings/IMG_1865.JPG",
+        "Meetings/IMG_1871.JPG",
+        "Meetings/28056528_10156273362571979_2560775422918914503_n.jpg",
+        "Meetings/27123324_165713207405781_286444868052451328_n.mp4",
+        "Meetings/26907915_10156193917071979_4995368428162152534_n.jpg",
+        "Meetings/27458949_10156223268786979_6644152320178968795_n.jpg",
+        "Meetings/27540353_10156209640941979_7266311878447040781_n.jpg",
+        "Meetings/28056164_10156270196146979_5859080585365085080_n.jpg",
+        "Meetings/27654476_10156223268671979_3387808586760195473_n.jpg",
+        "Meetings/27654872_10156235523301979_9023904172452222598_n.jpg",
+        "Meetings/decent pic.jpg",
+        "Meetings/IMG_1868.JPG",
+        "Meetings/IMG_1883.JPG",
+        "Meetings/IMG_1896.JPG",
+        "Meetings/IMG_1869.JPG",
+        "Meetings/IMG_1895.JPG",
+        "Meetings/IMG_1881.JPG",
+        "Meetings/27750932_10156235523461979_4862964625505306891_n.jpg"
+      ]
+    },
+    "minorities_in_stem" : {
+      "name" : "Minorities in STEM",
+      "type" : "image-carousel",
+      "images" : [
+        "Minorities in STEM/IMG_1901.JPG",
+        "Minorities in STEM/IMG_1900.JPG",
+        "Minorities in STEM/IMG_1902.JPG",
+        "Minorities in STEM/IMG_1903.JPG",
+        "Minorities in STEM/IMG_1907.JPG",
+        "Minorities in STEM/IMG_1906.JPG",
+        "Minorities in STEM/IMG_1912.JPG",
+        "Minorities in STEM/IMG_1904.JPG",
+        "Minorities in STEM/IMG_1905.JPG",
+        "Minorities in STEM/00100dPORTRAIT_00100_BURST20180228161515178_COVER.jpg",
+        "Minorities in STEM/28379136_10156297109251979_5900022555798650096_n.jpg",
+        "Minorities in STEM/IMG_1908.JPG",
+        "Minorities in STEM/IMG_1909.JPG"
+      ]
+    },
+    "school" : {
+      "name" : "School",
+      "type" : "image-carousel",
+      "images" : [
+        "School/IMG_1877.JPG",
+        "School/IMG_1938.JPG",
+        "School/IMG_1910.JPG",
+        "School/IMG_1911.JPG",
+        "School/IMG_1939.JPG",
+        "School/IMG_1940.JPG",
+        "School/IMG_1941.JPG",
+        "School/IMG_1880.JPG",
+        "School/IMG_1926.JPG",
+        "School/22308888_10155858768381979_1018087846926996675_n.jpg",
+        "School/IMG_1879.JPG"
+      ]
+    },
+    "scouts" : {
+      "name" : "Scouts",
+      "type" : "image-carousel",
+      "images" : [
+        "Scouts/25443150_10156082986021979_1327607956642268371_n.jpg",
+        "Scouts/25395719_10156082986026979_6866771689032386935_n.jpg",
+        "Scouts/25443313_10156082554006979_7182012977835990459_n.jpg",
+        "Scouts/28938747_2073598142655011_1433409633_o.jpg",
+        "Scouts/25299162_10156082554141979_3234970696711576830_n.jpg",
+        "Scouts/25299362_10156082986136979_1665788206374968383_n.jpg",
+        "Scouts/25348455_10156082986131979_2615313000943771837_n.jpg"
+      ]
+    },
+    "st_joseph_district" : {
+      "name" : "St. Joseph District",
+      "type" : "image-carousel",
+      "images" : [
+        "St. Joseph District/received_1610266039088907_2.jpeg",
+        "St. Joseph District/received_1610265995755578_2.jpeg",
+        "St. Joseph District/received_1610265805755597_2.jpeg",
+        "St. Joseph District/IMG_20180310_191126_681.jpg",
+        "St. Joseph District/received_1610266079088903_2.jpeg",
+        "St. Joseph District/00100dPORTRAIT_00100_BURST20180309213427228_COVER (1).jpg",
+        "St. Joseph District/IMG_0916.jpg",
+        "St. Joseph District/received_1610265795755598_2.jpeg",
+        "St. Joseph District/00000IMG_00000_BURST20180311100442745_COVER (1).jpg",
+        "St. Joseph District/received_1610265822422262_2.jpeg",
+        "St. Joseph District/received_1610265979088913_2.jpeg",
+        "St. Joseph District/received_1610265899088921_2.jpeg",
+        "St. Joseph District/00100dPORTRAIT_00100_BURST20180311133322722_COVER (2).jpg",
+        "St. Joseph District/00100dPORTRAIT_00100_BURST20180311095654180_COVER (1).jpg"
+      ]
+    },
+    "volunteering_in_first" : {
+      "name" : "Volunteering in FIRST",
+      "type" : "image-carousel",
+      "images" : [
+        "Volunteering in FIRST/IMG_1875.JPG",
+        "Volunteering in FIRST/IMG_1915.JPG",
+        "Volunteering in FIRST/IMG_1914.JPG",
+        "Volunteering in FIRST/IMG_1876.JPG",
+        "Volunteering in FIRST/IMG_1889.JPG",
+        "Volunteering in FIRST/24129604_10156020271196979_1009235832735150863_n.jpg",
+        "Volunteering in FIRST/IMG_1888.JPG",
+        "Volunteering in FIRST/27750256_10156243854286979_8825787148793600025_n.jpg",
+        "Volunteering in FIRST/IMG_1867.JPG",
+        "Volunteering in FIRST/IMG_1913.JPG",
+        "Volunteering in FIRST/IMG_1872.JPG",
+        "Volunteering in FIRST/27655533_10156243854186979_8344828292751774741_n.jpg",
+        "Volunteering in FIRST/19028483_1976808729198089_2231517178522238976_n.mp4",
+        "Volunteering in FIRST/23658401_10155993602081979_2335412248088828087_n.jpg",
+        "Volunteering in FIRST/23658817_10155993601946979_8751597950881452611_n.jpg",
+        "Volunteering in FIRST/27752192_10156243854376979_7068570729219013612_n.jpg",
+        "Volunteering in FIRST/24129794_10156020271181979_5341679970537083601_n.jpg",
+        "Volunteering in FIRST/28166374_10156285194396979_2692709275265593297_n.jpg",
+        "Volunteering in FIRST/18528044_10155377740731979_2906050536968259688_n.jpg",
+        "Volunteering in FIRST/19990155_10155586269841979_2725827240670780451_n.jpg",
+        "Volunteering in FIRST/IMG_1923.JPG",
+        "Volunteering in FIRST/17264503_10155148861336979_416106133953463106_n.jpg",
+        "Volunteering in FIRST/IMG_1922.JPG",
+        "Volunteering in FIRST/IMG_1885.JPG",
+        "Volunteering in FIRST/IMG_1890.JPG",
+        "Volunteering in FIRST/IMG_1925.JPG",
+        "Volunteering in FIRST/IMG_1924.JPG",
+        "Volunteering in FIRST/IMG_1887.JPG"
+      ]
+    },
+    "first_like_a_girl" : {
+      "name" : "#FIRSTlikeagirl 1",
+      "type" : "video",
+      "file" : "FIrst like a girl final.mp4"
+    },
+    "first_like_a_girl_2" : {
+      "name" : "#FIRSTlikeagirl 2",
+      "type" : "video",
+      "file" : "FIRST Like a Girl Linnea.mp4"
+    },
+    "first_like_a_girl_3" : {
+      "name" : "#FIRSTlikeagirl 3",
+      "type" : "video",
+      "file" : "FirstLikeaGirl.mp4"
+    }
+  }
+}
