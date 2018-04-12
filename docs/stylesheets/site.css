@@ -108,4 +108,8 @@ body {
 .navbar-brand {
   float: none;
   font-family: 'Lobster', cursive;
-  font-size: 24px; }
+  font-size: 24px;
+  color: white; }
+
+.publications {
+  background-color: #efefef; }

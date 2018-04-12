@@ -78,3 +78,18 @@ function awardsAnimationCheck(){
 }
 $(window).scroll(awardsAnimationCheck);
 $(document).ready(awardsAnimationCheck);
+
+$('.publications').find('li').each(function(){
+  $(this).addClass('publication-item animated animateOnScroll');
+});
+
+function publicationsAnimationCheck(){
+  $('.publication-item.animated.animateOnScroll').each(function(){
+    if(isScrolledIntoView(this) === true){
+      $(this).addClass('fadeIn');
+    }
+  });
+}
+
+$(window).scroll(publicationsAnimationCheck);
+$(document).ready(publicationsAnimationCheck);
