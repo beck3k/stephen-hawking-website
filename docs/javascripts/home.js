@@ -50,18 +50,31 @@ function isScrolledIntoView(elem) {
 
     return ((elemBottom <= docViewBottom) && (elemTop >= docViewTop));
 }
-$('.timeline-item.animateOnScroll').hide();
-$(window).scroll(function () {
-   $('.timeline-item.left.animateOnScroll').each(function () {
-      if (isScrolledIntoView(this) === true) {
-          $(this).show();
-          $(this).children().addClass('bounceInLeft');
-      }
-   });
-   $('.timeline-item.right.animateOnScroll').each(function () {
-      if (isScrolledIntoView(this) === true) {
-          $(this).show();
-          $(this).children().addClass('bounceInRight');
-      }
-   });
-});
+//$('.timeline-item.animateOnScroll').hide();
+
+function timelineAnimationCheck(){
+  $('.timeline-item.left.animateOnScroll').each(function () {
+     if (isScrolledIntoView(this) === true) {
+         $(this).show();
+         $(this).children().addClass('bounceIn');
+     }
+  });
+  $('.timeline-item.right.animateOnScroll').each(function () {
+     if (isScrolledIntoView(this) === true) {
+         $(this).show();
+         $(this).children().addClass('bounceIn');
+     }
+  });
+}
+$(window).scroll(timelineAnimationCheck);
+$(document).ready(timelineAnimationCheck);
+
+function awardsAnimationCheck(){
+  $('.awards-item.animated.animateOnScroll').each(function(){
+    if (isScrolledIntoView(this) === true){
+      $(this).addClass('fadeInLeft');
+    }
+  });
+}
+$(window).scroll(awardsAnimationCheck);
+$(document).ready(awardsAnimationCheck);

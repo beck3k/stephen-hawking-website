@@ -30,13 +30,13 @@
   padding: 10px 40px;
   position: relative;
   background-color: inherit;
-  width: 50%;
-  color: white; }
+  width: 50%; }
   .timeline-item .content {
-    padding: 20px 30px;
-    background-color: white;
-    position: relative;
-    border-radius: 6px; }
+    position: relative; }
+    .timeline-item .content .event-content {
+      padding: 20px 30px;
+      background-color: white;
+      border-radius: 6px; }
 
 .timeline-item::after {
   content: '';
@@ -75,3 +75,37 @@
   /* Make all right containers behave like the left ones */
   .right {
     left: 0%; } }
+.footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #efefef;
+  text-align: right; }
+
+body {
+  position: relative;
+  margin: 0;
+  padding-bottom: 6rem;
+  min-height: 100%; }
+
+.awards-list {
+  margin-left: auto;
+  margin-right: auto;
+  left: 50%; }
+
+.navbar-light {
+  background-color: #0C58AD; }
+
+.navbar {
+  text-align: center;
+  float: left;
+  padding: 15px;
+  text-align: center;
+  width: 100%; }
+
+.navbar-brand {
+  float: none;
+  font-family: 'Lobster', cursive;
+  font-size: 24px; }

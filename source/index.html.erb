@@ -14,9 +14,9 @@ title: Home
   </div>
 </div>
 <div class="container-fluid timeline">
-  <h1 class="text-white">Timeline</h1>
+  <h1 class="text-white">A brief history Timeline...</h1>
   <div class="timeline-body">
-        <div class="timeline-item left animateOnScroll" >
+        <!-- <div class="timeline-item left animateOnScroll" >
           <div class="animated content ">
             Test
           </div>
@@ -25,7 +25,42 @@ title: Home
           <div class="content animated">
             Test 2
           </div>
-        </div>
+        </div> -->
+        <%= partial(:tline_itm, :locals => {:side => "left", :date => "Jan 8, 1942", :content => "Stephen Hawking is born to Frank and Isobel Hawking."}) %>
+        <%= partial(:tline_itm, :locals => {:side => "right", :date => "~1950", :content => "Stephen Hawking moved to St. Albans and attended St. Albans school."}) %>
+        <%= partial(:tline_itm, :locals => {:side => "left", :date => "", :content => "Stephen and his friends build a computer called L.U.C.E(Logical Uniselect Processing Engine)"}) %>
+        <%= partial(:tline_itm, :locals => {:side => "right", :date => "1959", :content => "Took Oxford Entrance Exam"}) %>
+        <%= partial(:tline_itm, :locals => {:side => "left", :date => "1962", :content => "Arived at Cambridge, advised byDenis Sciama"}) %>
+        <%= partial(:tline_itm, :locals => {:side => "right", :date => "1963", :content => "Diagnosed with ALS and not expected to live past 2 years"}) %>
+        <%= partial(:tline_itm, :locals => {:side => "left", :date => "July 14, 1965", :content => "Marries Jane Wilde.  Has 3 children"}) %>
+        <%= partial(:tline_itm, :locals => {:side => "right", :date => "1968", :content => "Recieves Ph.D."}) %>
+        <%= partial(:tline_itm, :locals => {:side => "left", :date => "~1973", :content => "No longer can grasp a pencil and paper pad"}) %>
+        <%= partial(:tline_itm, :locals => {:side => "right", :date => "1979", :content => "Holds position as Lucasian Professor of Mathematics at Cambridge"}) %>
+        <%= partial(:tline_itm, :locals => {:side => "left", :date => "1989", :content => "Publishes book 'A brief history of time'"}) %>
+        <%= partial(:tline_itm, :locals => {:side => "right", :date => "1991", :content => "Divorces Jane Wilde"}) %>
+        <%= partial(:tline_itm, :locals => {:side => "left", :date => "1992", :content => "Has to use one finger on one hand to control his wheelchair and speech synthesizer"}) %>
+        <%= partial(:tline_itm, :locals => {:side => "right", :date => "2009", :content => "Retired from position at Cambridge"}) %>
+        <%= partial(:tline_itm, :locals => {:side => "left", :date => "March 14, 2018", :content => "The day Stephen Hawking died"}) %>
     </div>
+</div>
+<div class="container-fluid">
+  <h1 class="text-center"1>Awards/Achievements</h1>
+  <ul class="awards-list">
+    <%= partial(:awrd_itm, :locals => {:award => "1975 - Edding Medal of Royal Astronomical Society"}) %>
+    <%= partial(:awrd_itm, :locals => {:award => "1975 - Pius XI goal medal"}) %>
+    <%= partial(:awrd_itm, :locals => {:award => "1976 - Maxwel medal of integrity physics"}) %>
+    <%= partial(:awrd_itm, :locals => {:award => "1976 - Hughes Medal"}) %>
+    <%= partial(:awrd_itm, :locals => {:award => "1978 - Albert Einstein Award"}) %>
+    <%= partial(:awrd_itm, :locals => {:award => "1979 - Albert Einstein Medal"}) %>
+    <%= partial(:awrd_itm, :locals => {:award => "1985 - Gold Medal of Royal Society"}) %>
+    <%= partial(:awrd_itm, :locals => {:award => "1981 - Franklin Medal of Franklin Institute"}) %>
+    <%= partial(:awrd_itm, :locals => {:award => "1987 - Paul Dirac Medal and Prize"}) %>
+    <%= partial(:awrd_itm, :locals => {:award => "1988 - Wolf prize in physics"}) %>
+    <%= partial(:awrd_itm, :locals => {:award => "1989 - Britanica Award"}) %>
+    <%= partial(:awrd_itm, :locals => {:award => "2006 - Won Copley Medal"}) %>
+    <%= partial(:awrd_itm, :locals => {:award => "2009 - Hawking won medal of freedom presented by Barack Obama"}) %>
+    <%= partial(:awrd_itm, :locals => {:award => "2013 - Special Breakthrough Prize in Fundemental Physics"}) %>
+  </ul>
+
 </div>
 <%= javascript_include_tag 'home' %>
