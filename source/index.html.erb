@@ -65,7 +65,7 @@ title: Home
 <div class="container-fluid publications">
   <h3 style="margin-bottom: 1px">Publications</h3>
   <h5 style="font-style: italic; font-size: 10px;">(Newest to Oldest)</h5>
-  <ul>
+  <ul style="display: inline;">
     <li>
       A Smooth Exit from Eternal Inflation
     </li>
@@ -400,37 +400,48 @@ title: Home
     <li>Properties of Expanding Universes.</li>
   </ul>
 </div>
-<div class="container-fluid">
+<div class="container-fluid books">
   <h1 class="text-center">Books</h1>
   <div class="row">
     <div class="col-lg-6">
-      <%= image_tag "my_brief_history.jpg", :class => "float-right" %>
+      <%= image_tag "my_brief_history.jpg", :class => "right-item" %>
     </div>
     <div class='col-lg-6'>
-      <p>
+      <p class="left-item">
         My Brief History
       </p>
     </div>
   </div>
   <div class="row">
     <div class="col-lg-6">
-      <p class="float-right">
+      <p class="right-item">
         The grand design
       </p>
     </div>
     <div class="col-lg-6">
-      <%= image_tag "the_grand_design.gif", :class => "float-left" %>
+      <%= image_tag "the_grand_design.gif", :class => "left-item" %>
     </div>
   </div>
   <div class="row">
     <div class="col-lg-6">
-      <%= image_tag "briefer_history.jpg", :class => "float-right" %>
+      <%= image_tag "briefer_history.jpg", :class => "right-item" %>
     </div>
     <div class="col-lg-6">
-      <p>
+      <p class="left-item">
         A briefer history of time
       </p>
     </div>
   </div>
+  <%= partial(:book_entry_right, :locals => {:image => 'george-and-the-blue-moon.jpg', :text => 'George and the Blue Moon'}) %>
+  <%= partial(:book_entry_left, :locals => {:image => "reith_lectures.jpg", :text => 'Reith Lectures'}) %>
+  <%= partial(:book_entry_right, :locals => {:image => 'george-and-the-unbreakable-code.jpg', :text => 'George and the Unbreakable Code'}) %>
+  <%= partial(:book_entry_left, :locals => {:image => 'george-and-the-big-bang.jpg', :text => 'George and the Big Bang'}) %>
+  <%= partial(:book_entry_left, :locals => {:image => 'george-s-cosmic-treasure-hunt.jpg', :text => 'Georges cosmic treasure hunt'}) %>
+  <%= partial(:book_entry_right, :locals => {:image => 'george-s-secret-key-to-the-universe.jpg', :text => 'Georges Secret Key to the Universe'}) %>
+  <%= partial(:book_entry_left, :locals => {:image => 'universe-in-a-nutshell.gif', :text => 'The Universe in a Nutshell'}) %>
+  <%= partial(:book_entry_right, :locals => {:image => 'black-holes-and-baby-universes-thumbnail.jpg', :text => 'Black Holes and Baby Universes'}) %>
+  <%= partial(:book_entry_left, :locals => {:image => 'shoulders-of-giants.jpg', :text => "On the Shoulders of Giants"}) %>
+  <%= partial(:book_entry_right, :locals => {:image => 'structure-space-time.jpg', :text => 'The large scale structure of space-time'}) %>
+  <%= partial(:book_entry_left, :locals => {:image => 'god-created-integers.png', :text => 'God created the integers'}) %>
 </div>
 <%= javascript_include_tag 'home' %>

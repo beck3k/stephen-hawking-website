@@ -30,13 +30,17 @@
   padding: 10px 40px;
   position: relative;
   background-color: inherit;
-  width: 50%; }
+  width: 50%;
+  visibility: hidden; }
   .timeline-item .content {
-    position: relative; }
+    position: relative;
+    visibility: hidden; }
     .timeline-item .content .event-content {
       padding: 20px 30px;
       background-color: white;
       border-radius: 6px; }
+  .timeline-item .content.bounceIn {
+    visibility: visible; }
 
 .timeline-item::after {
   content: '';
@@ -94,22 +98,64 @@ body {
   margin-left: auto;
   margin-right: auto;
   left: 50%; }
+  .awards-list li {
+    visibility: hidden; }
+  .awards-list li.fadeInLeft {
+    visibility: visible; }
 
-.navbar-light {
-  background-color: #0C58AD; }
-
-.navbar {
-  text-align: center;
-  float: left;
-  padding: 15px;
-  text-align: center;
-  width: 100%; }
-
-.navbar-brand {
-  float: none;
-  font-family: 'Lobster', cursive;
-  font-size: 24px;
-  color: white; }
+.page-title {
+  padding: 40px;
+  background-color: #4C85C4;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-shadow: 0 5px 5px #4C85C4;
+          box-shadow: 0 5px 5px #4C85C4;
+  margin-bottom: 5px; }
+  .page-title span {
+    color: white;
+    font-family: 'Lobster', cursive;
+    font-size: 48px;
+    position: absolute; }
+  .page-title br {
+    display: block;
+    margin: 10px 0; }
 
 .publications {
   background-color: #efefef; }
+
+.publication-item {
+  display: inline;
+  padding-right: 30px;
+  visibility: hidden; }
+
+.publication-item.fadeIn {
+  visibility: visible; }
+
+.books .col-lg-6 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+  .books .col-lg-6 .right-item {
+    -ms-flex-item-align: end;
+        align-self: flex-end; }
+  .books .col-lg-6 .left-item {
+    -ms-flex-item-align: start;
+        align-self: flex-start; }
+  .books .col-lg-6 p, .books .col-lg-6 img {
+    visibility: hidden; }
+  .books .col-lg-6 .fadeInRight, .books .col-lg-6 .fadeInLeft {
+    visibility: visible; }

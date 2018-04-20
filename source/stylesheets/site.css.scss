@@ -39,16 +39,22 @@
   position: relative;
   background-color: inherit;
   width: 50%;
+  visibility: hidden;
   // color: white;
   .content {
     position: relative;
+    visibility: hidden;
     .event-content {
         padding: 20px 30px;
         background-color: white;
         border-radius: 6px;
     }
   }
+  .content.bounceIn {
+    visibility: visible;
+  }
 }
+
 
 .timeline-item::after {
   content: '';
@@ -115,26 +121,85 @@ body {
     margin-left: auto;
     margin-right: auto;
     left: 50%;
+    li {
+      visibility: hidden;
+    }
+    li.fadeInLeft {
+      visibility: visible;
+    }
 }
 
-.navbar-light {
-  background-color: #0C58AD;
+// .navbar-light {
+//   background-color: #0C58AD;
+// }
+//
+// .navbar {
+//   padding: 15px;
+//   width: 100%;
+//   position: relative;
+// }
+//
+// .navbar-brand {
+//   font-family: 'Lobster', cursive;
+//   font-size: 24px;
+//   color: red;
+//   position: absolute;
+//   left: 50%;
+//   margin-left: -50px !important;
+// }
+
+.page-title {
+  padding: 40px;
+  background-color: #4C85C4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  span {
+    color: white;
+    font-family: 'Lobster', cursive;
+    font-size: 48px;
+    // left: 50%;
+    // margin-left: -50px;
+    position: absolute;
+  }
+  br {
+   display: block;
+   margin: 10px 0;
+ }
+ box-shadow: 0 5px 5px #4C85C4;
+ margin-bottom: 5px;
 }
 
-.navbar {
-  text-align: center;
-  float: left;
- padding: 15px;
- text-align: center;
- width: 100%;
-}
-
-.navbar-brand {
-  float: none;
-  font-family: 'Lobster', cursive;
-  font-size: 24px;
-  color: white;
-}
 .publications {
   background-color: #efefef
+}
+
+.publication-item {
+  display: inline;
+  padding-right: 30px;
+  visibility: hidden;
+}
+
+.publication-item.fadeIn {
+  visibility: visible;
+}
+
+.books {
+  .col-lg-6 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    .right-item {
+      align-self: flex-end;
+    }
+    .left-item {
+      align-self: flex-start;
+    }
+    p,img {
+      visibility: hidden;
+    }
+    .fadeInRight, .fadeInLeft{
+      visibility: visible;
+    }
+  }
 }

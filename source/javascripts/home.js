@@ -46,7 +46,7 @@ function isScrolledIntoView(elem) {
     var docViewBottom = docViewTop + $(window).height();
 
     var elemTop = $(elem).offset().top;
-    var elemBottom = elemTop + $(elem).height();
+    var elemBottom = elemTop + $(elem).height() - 20;
 
     return ((elemBottom <= docViewBottom) && (elemTop >= docViewTop));
 }
@@ -93,3 +93,23 @@ function publicationsAnimationCheck(){
 
 $(window).scroll(publicationsAnimationCheck);
 $(document).ready(publicationsAnimationCheck);
+
+function booksAnimationCheck(){
+  $('.books').find('.right-item').each(function(){
+    if(isScrolledIntoView(this) === true){
+      $(this).addClass('animated fadeInLeft');
+    }
+  });
+  $('.books').find('.left-item').each(function(){
+    if(isScrolledIntoView(this) === true){
+      $(this).addClass('animated fadeInRight');
+      // $(this).css({'display' : 'inline'});
+      console.log(this);
+    }else{
+      // $(this).css({'display' : 'none'});
+    }
+  })
+}
+
+$(window).scroll(booksAnimationCheck);
+$(document).ready(booksAnimationCheck);
